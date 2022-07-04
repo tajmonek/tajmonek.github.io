@@ -1,0 +1,146 @@
+body {
+    font-family: 'Lato';
+    font-size: 20px;
+    background-color: #15202b;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.3px;
+    color: white;
+    font-weight: 100;
+    
+    
+}
+*{
+     box-sizing: border-box;
+    
+}
+
+table{
+    /* text-align: center;property value; */
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+
+h1{
+    color: white;
+}
+
+h3{
+    color:#1a8cd8;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    /* text-indent: 50px; */
+
+
+}
+
+
+.sup_element {
+    color: red;
+}
+
+footer strong{
+    text-decoration: underline ;
+}
+
+mark {
+    border-radius: 5px;
+}
+
+div#main-content{
+    background-color:#273340;
+    padding-left: 30px;
+    padding-top: 80;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right:20px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction:row-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* justify-content: flex-end; */
+}
+
+a:hover{
+    color: aqua;
+}
+
+a{
+    color:#1a8cd8;
+}
+
+table tr:first-child{
+    color: blue;
+}
+
+article{
+
+    margin-bottom: 0;
+}
+
+#articles{
+   flex-grow: 1;
+}
+
+#skills{
+    flex-grow: 1;
+    /* align-self:center ; */
+    color: white;
+    
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+footer{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color:#1a8cd8;
+
+
+}
+
+@media screen and (min-width: 600px) {
+    footer{
+        position: fixed;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    div#main-content, header{
+        flex-direction: column;
+    }
+
+
+}
+
+th{
+    color: black;
+}
